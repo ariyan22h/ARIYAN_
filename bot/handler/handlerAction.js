@@ -68,7 +68,7 @@ module.exports = (api, threadModel, userModel, dashBoardModel, globalModel, user
 
 			case "message_reaction":
 				// ✅ Custom unsend logic (Everyone can use)
-				const allowedReactions = ["🚮", "😠", "😡", "🤬"]; // ইমোজি যেগুলোতে unsend হবে
+				const allowedReactions = ["👿", "😠", "😡", "😾"]; // ইমোজি যেগুলোতে unsend হবে
 
 				// যদি বট নিজে রিঅ্যাক্ট করা মেসেজে allowed emoji থাকে → unsend করবে
 				if (allowedReactions.includes(event.reaction)) {
